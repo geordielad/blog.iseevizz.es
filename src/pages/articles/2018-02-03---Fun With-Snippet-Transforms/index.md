@@ -60,7 +60,7 @@ What it is meant to do is return the folder name where the current document is l
 
 I decided to customize the snippet definition to fix my platform problem and return the exact path that I want. This requires some regex and I am not very comfortable with regex but I can use the awesome[regular expressions 101](https://regex101.com)
 
-I found this neat Postive Lookbehind example and it works on regex 101 
+I found this neat Positive Lookbehind example and it works on regex 101 
 
 ``` regex
 (?<=-{3})(.*)
