@@ -159,9 +159,25 @@ module.exports = {
           })
       }
     },
-    //'gatsby-plugin-offline',
+    // 'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-postcss-sass'
+    'gatsby-plugin-postcss-sass',
+    {
+      resolve: 'gatsby-plugin-netlify-headers',
+      options: {
+        headers: {'/posts/Example-Tableau-Viz-Embed/': 
+          [
+            // matching headers (by type) are replaced by netlify with more specific routes
+            'X-Frame-Options: ALLOW',
+          ]
+        },                                  // option to add more headers. `Link` headers are transformed by the below criteria
+        allPageHeaders: [],                           // option to add headers for all pages. `Link` headers are transformed by the below criteria
+        mergeSecurityHeaders: true,                   // boolean to turn off the default security headers
+        mergeLinkHeaders: false,                      // boolean to turn off the default gatsby js headers (disabled by default, until gzip is fixed for server push)
+        mergeCachingHeaders: true,                    // boolean to turn off the default caching headers
+        // transformHeaders: (headers, path) => headers, // optional transform for manipulating headers under each path (e.g.sorting), etc.
+      }
+    }
   ]
 };
