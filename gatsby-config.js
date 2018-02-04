@@ -166,7 +166,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-netlify-headers',
       options: {
-        headers: {'/posts/Example-Tableau-Viz-Embed/': 
+        headers: { '/posts/example-tableau-viz-embed/': 
           [
             // matching headers (by type) are replaced by netlify with more specific routes
             'X-Frame-Options: ALLOW',
