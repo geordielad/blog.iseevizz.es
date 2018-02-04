@@ -14,7 +14,7 @@ tags:
     <noscript>
         <a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ac&#47;Accidental_aRtSubmission&#47;ComparePlots&#47;1_rss.png' style='border: none' /></a>
     </noscript>
-    <object class='tableauViz'  style='display:none;' width='100%' height='600px'>
+    <object class='tableauViz'  style='display:none;' width='100%'>
         <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
         <param name='embed_code_version' value='3' /> 
         <param name='site_root' value='' />
@@ -32,11 +32,9 @@ tags:
 <script type='text/javascript'>                    
     var divElement = document.getElementById('viz1517700764264');                    
     var vizElement = divElement.getElementsByTagName('object')[0];                    
-    vizElement.style.width='100%';
-    vizElement.style.height='600px';                    
+    //vizElement.style.width='100%';
+    //vizElement.style.height='600px';                    
     var scriptElement = document.createElement('script');                    
     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
     vizElement.parentNode.insertBefore(scriptElement, vizElement);                
 </script>
-
-<center><iframe src="https://public.tableau.com/views/Accidental_aRtSubmission/ComparePlots?:embed=y&:display_count=yes" width="100%" height="620" frameborder="0"></iframe></center>
