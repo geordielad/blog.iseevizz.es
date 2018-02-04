@@ -38,3 +38,5 @@ tags:
     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
     vizElement.parentNode.insertBefore(scriptElement, vizElement);                
 </script>
+
+<center><iframe src="https://public.tableau.com/views/Accidental_aRtSubmission/ComparePlots?:embed=y&:display_count=yes" width="100%" height="620" frameborder="0"></iframe></center>
