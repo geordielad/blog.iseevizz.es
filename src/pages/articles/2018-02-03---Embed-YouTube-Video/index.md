@@ -10,4 +10,4 @@ tags:
   - "Video"
 ---
 
-`youtube:https://www.youtube.com/embed/2Xc9gXyf2G4`
+`youtube:https://www.youtube.com/embed/tOMRIQr-AGs`
