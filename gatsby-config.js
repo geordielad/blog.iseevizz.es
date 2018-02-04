@@ -14,9 +14,19 @@ module.exports = {
         label: 'About me',
         path: '/about/'
       },
+      /*
       {
         label: 'Contact me',
         path: '/contact/'
+      },
+      */
+      {
+        label: 'Categories',
+        path: '/categories/'
+      },
+      {
+        label: 'Tags',
+        path: '/tags/'
       }
     ],
     author: {

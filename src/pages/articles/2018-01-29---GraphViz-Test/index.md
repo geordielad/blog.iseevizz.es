@@ -4,7 +4,7 @@ date: "2018-01-29T00:00:00Z"
 layout: post
 draft: false
 path: "/posts/2018-01-29---GraphViz-Test/"
-category: "Blog Tools"
+category: "Tools"
 description: "Graphviz is open source graph vizualation software. Graph model can be use to represent anything from simple flowcharts, to ERDs. I want to see if I can incorporate graphs into my blog content"
 tags:
   - "GraphViz"
