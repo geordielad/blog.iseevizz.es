@@ -94,8 +94,11 @@ Here is the cifar10_train.py running on my GPU:
 
 Note that I am getting over 3K examples as second or each batch is taking 0.039 seconds and my CPU is not running that much.
 
-If I switch to the cpu version I get a very different performance.
+The results in TensorBoard look like this:
 
+![](images/tensorboard-cifar10-results-gpu.png)
+
+If I switch to the cpu version I get a very different performance.
 
 ## An Example Application of Tensorflow
 
