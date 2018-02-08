@@ -86,6 +86,8 @@ After installing your GPU Card:
 
 ### Comparing CPU v GPU
 
+The TensorFlow repository has a [tutorial](https://github.com/tensorflow/models/tree/master/tutorials/image/cifar10) that is based on the [CIFAR-10](https://en.wikipedia.org/wiki/CIFAR-10) Dataset. This dataset is often used as a benchmark for Deep Learning Algorithms and Frameworks.
+
 Here is the cifar10_train.py running on my GPU:
 
 ![](images/-cifar10-train-gpu-task-manager.png)
